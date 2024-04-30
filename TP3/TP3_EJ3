@@ -7,20 +7,18 @@ COMIENZO
     Escribir 'Ingresar otro numero: '
     Leer num2
 
-    sum = num1 + num2
-    rest = num1 - num2
-    prod = num1 * num2
-    cos =  num1 / num2
+    sum ← num1 + num2
+    rest ← num1 - num2
+    prod ← num1 * num2
+    cos ← num1 / num2
+
+    Escribir 'Suma: ', sum
+    Escribir 'Resta: ', rest
+    Escribir 'Producto: ', prod
 
     Si num2<>0 entonces
-        Escribir 'Suma: ', sum
-        Escribir 'Resta: ', rest
-        Escribir 'Producto: ', prod
         Escribir 'Cociente: ', cos
     Sino
-        Escribir 'Suma: ', sum
-        Escribir 'Resta: ', rest
-        Escribir 'Producto: ', prod
         Escribir 'Cociente: No se puede calcular'
     FinSi
 

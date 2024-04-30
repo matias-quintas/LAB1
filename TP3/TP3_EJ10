@@ -1,0 +1,22 @@
+num, unidad, decena: Z
+
+COMIENZO
+
+    Escribir 'Ingresar un numero entero: '
+    Leer num
+
+    Si num>9 y num<100 entonces
+        decena ← trunc(num/10)
+        unidad ← num/10 - decena
+        Si decena>unidad entonces
+            Escribir 'Mayor: ', decena
+            Escribir 'Menor: ', unidad
+        Sino
+            Escribir 'Menor: ', decena
+            Escribir 'Mayor: ', unidad
+        FinSi  
+        Escribir "La unidad es: ", unidad
+    Sino
+        Escribir 'Tiene que se un numero de 2 digitos'
+    FinSi
+FIN
