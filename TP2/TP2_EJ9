@@ -1,0 +1,19 @@
+horas, minutos, segundos, inst1, inst2: N
+
+COMIENZO
+
+    Escribir 'Ingresar Horas, minutos y segundos: '
+    Leer horas, minutos, segundos
+
+    inst1 ← (hora*3600) + (minutos*60) + segundos
+
+    Escribir 'Ingresar de nuevo Horas, minutos y segundos: '
+    Leer horas, minutos, segundos
+
+    inst2 ← (hora*3600) + (minutos*60) + segundos
+    
+    diferencia ←  inst2 - inst1
+
+    Escribir 'Segundos de diferencia:', diferencia
+
+FIN

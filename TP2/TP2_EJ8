@@ -1,0 +1,12 @@
+gradosF, gradosC: R
+
+COMIENZO
+
+    Escribir 'Grados Fahrenheit: '
+    Leer gradosF
+
+    gradosC ← (gradosF - 32) * 5/9
+
+    Escribir 'Grados Centígrados', gradosC
+
+FIN

@@ -1,0 +1,20 @@
+num1, num2, resultado: R
+
+COMIENZO
+
+    Escribir 'Ingresar un numero: '
+    Leer num1
+    Escribir 'Ingresar otro numero: '
+    Leer num2
+    aux = num1*num2
+
+    Si aux=0 entonces
+        Escribir 'Producto negativo'
+    Sino
+        Si aux>0 entonces
+            Escribir 'Producto Positivo'
+        Sino
+            Escribir 'Producto negativo'
+    FinSi
+
+FIN

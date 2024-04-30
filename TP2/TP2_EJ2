@@ -1,0 +1,19 @@
+TP2 EJ2
+
+num, cifraCentral: N 
+
+COMIENZO
+
+    Escribir "Ingrese un valor: "
+    Leer num 
+
+    Si Nro>99 y Nro<1000
+        cifraCentral ← ((num/100 - trunc(num/100)) * 10) - (num/10 - trunc(num/10))
+        Escribir "El valor ingresado es: ", num
+        Escribir "La cifra central es: ", cifraCentral
+    Sino
+        Escribir 'Se ingreso un numero invalido'
+    FinSi
+
+FIN
+

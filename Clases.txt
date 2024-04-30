@@ -1,0 +1,7 @@
+> | < | >= | <= | = | <>
+
+Si Nro=0 entonces
+    Escribir 'El Nro ingresado es 0'
+Sino 
+    Escribir 'El Nro ingresado es <> 0'
+FinSi

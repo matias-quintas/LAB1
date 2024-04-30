@@ -1,0 +1,20 @@
+TP2 EJ3
+
+precioLista, descuento, precioConDescuento: R
+
+COMIENZO
+
+    Escribir 'Indicar precio de lista: '
+    Leer  precioLista
+    Escribir 'Indicar descuento (1-100): '
+    Leer  descuento
+
+    descuento ← descuento / 100
+    precioConDescuento ← precioLista * (1 - descuento)
+
+
+    Escribir 'Precio de lista: $', precioLista
+    Escribir 'Descuento sobre precio de lista: %', descuento 
+    Escribir 'Precio con descuento: $', precioConDescuento
+
+FIN

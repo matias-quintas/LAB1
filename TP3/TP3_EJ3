@@ -1,0 +1,27 @@
+num1, num2, sum, rest, prod, cos: R
+
+COMIENZO
+
+    Escribir 'Ingresar un numero: '
+    Leer num1
+    Escribir 'Ingresar otro numero: '
+    Leer num2
+
+    sum = num1 + num2
+    rest = num1 - num2
+    prod = num1 * num2
+    cos =  num1 / num2
+
+    Si num2<>0 entonces
+        Escribir 'Suma: ', sum
+        Escribir 'Resta: ', rest
+        Escribir 'Producto: ', prod
+        Escribir 'Cociente: ', cos
+    Sino
+        Escribir 'Suma: ', sum
+        Escribir 'Resta: ', rest
+        Escribir 'Producto: ', prod
+        Escribir 'Cociente: No se puede calcular'
+    FinSi
+
+FIN

@@ -1,0 +1,19 @@
+num, pri, secu, terce: N
+
+COMIENZO
+
+    
+    Escribir 'Ingrese un valor: '
+    Leer num 
+
+    pri ← trunc(num/100)
+    terce ← (num/10 - trunc(num/10) * 10)
+    secu ← num - (pri * 100) - terce
+    
+
+    Escribir 'El valor ingresado es: ', num
+    Escribir 'Cifra inicial: ', pri
+    Escribir 'Cifra central: ', secu
+    Escribir 'Cifra final: ', terce
+
+FIN

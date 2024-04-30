@@ -1,0 +1,20 @@
+TP2 EJ1
+
+num, decena, unidad: N
+
+COMIENZO
+
+    Escribir "Ingrese un num: "
+    Leer num
+    Si Nro>9 y Nro<100
+        decena ← trunc(num/10)
+        unidad ← num/10 - trunc(num/10) * 10
+        Escribir "La decena es: ", decena
+        Escribir "La unidad es: ", unidad
+    Sino
+        Escribir 'Se ingreso un numero invalido'
+    FinSi
+
+
+FIN
+

@@ -1,0 +1,14 @@
+lado, area, perimetro: R
+
+COMIENZO
+
+    Escribir 'Ingrese un lado del cuadrado: '
+    Leer lado
+    
+    area ← lado * lado
+    perimetro ← lado * 4
+
+    Escribir 'Area: ', area
+    Escribir 'Perimetro: ', perimetro
+
+FIN

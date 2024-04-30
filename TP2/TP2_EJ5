@@ -1,0 +1,19 @@
+fecha, mes: N
+año, dia: N
+
+COMIENZO
+
+    Escribir 'Indicar fecha: '
+    Leer fecha
+            
+    Si fecha>9999 y fecha<=311299
+        año ← trunc(fecha/10000) * 10000
+        dia ← 100 * (fecha/100 - trunc(fecha/100))
+        mes ← (fecha - año - dia) / 100
+        Escribir 'Fecha: ', fecha
+        Escribir 'Mes: ', mes
+    Sino
+        Escribir 'Se ingreso un numero invalido'
+    FinSi
+
+FIN

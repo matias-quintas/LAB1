@@ -1,0 +1,14 @@
+horasTrabajadas, precioHora, salarioBruto: R
+
+COMIENZO
+
+    Escribir 'Horas trabajadas: '
+    Leer horasTrabajadas
+    Escribir 'Precio por hora: '
+    Leer precioHora
+
+    salarioBruto ← precioHora * horasTrabajadas
+
+    Escribir 'Total sueldo bruto: $', salarioBruto
+
+FIN

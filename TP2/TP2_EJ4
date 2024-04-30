@@ -1,0 +1,15 @@
+TP2 EJ4
+
+num, numPermutado: N
+
+COMIENZO
+
+    Escribir 'Indicar precio de lista: '
+    Leer num
+    
+    numPermutado ←  (num/10 - trunc(num/10) * 100) + trunc(num/10)
+
+    Escribir 'Valor: ', num
+    Escribir 'Valor permutado:', numPermutado
+
+FIN

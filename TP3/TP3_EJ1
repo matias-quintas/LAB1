@@ -1,0 +1,19 @@
+num1, num2: R
+
+COMIENZO
+
+    Escribir 'Ingresar un numero: '
+    Leer num1
+    Escribir 'Ingresar otro numero: '
+    Leer num2
+
+    Si num1<>0 y num2<>0
+        Si (num1*num2)>0
+            Escribir 'Producto Positivo'
+        Sino
+            Escribir 'Producto negativo'
+    Sino
+        Escribir 'Se ingreso un numero invalido'
+    FinSi
+
+FIN
