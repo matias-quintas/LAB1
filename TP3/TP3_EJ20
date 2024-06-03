@@ -1,0 +1,40 @@
+num: N
+
+COMIENZO
+  Escribir 'Ingresar un numero del 1 al 7: '
+  Leer num
+
+  Si num>0 y <8 Entonces
+    Si num=1 Entonces
+      Escribir 'Lunes'
+    Sino
+      Si num=2 Entonces
+        Escribir 'Martes'
+      Sino
+        Si num=3 Entonces
+          Escribir 'Miercoles'
+        Sino
+          Si num=4 Entonces
+            Escribir 'Jueves'
+          Sino
+            Si num=4 Entonces
+              Escribir 'Jueves'
+            Sino
+              Si num=5 Entonces
+                Escribir 'Viernes'
+              Sino
+                Si num=6 Entonces
+                  Escribir 'Sabado'
+                Sino
+                  Escribir 'Domingo'
+                FinSi
+              FinSi
+            FinSi
+          FinSi
+        FinSi
+      FinSi
+    FinSi
+  Sino
+    Escribir 'Error, numero invalido.'
+  FinSi
+FIN

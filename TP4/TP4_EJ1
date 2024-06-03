@@ -1,0 +1,14 @@
+cod: c[1]
+
+COMIENZO
+    Escribir 'Ingrese el codigo de la categoria (I, C, J o A): '
+    Leer cod
+    
+    SEGUN cod HACER
+        I: Escribir 'Infantiles: $800'
+        C: Escribir 'Cadetes: $1000'
+        J: Escribir 'Juvenil: $1200'
+        A: Escribir 'Adulto: $900'
+        En cualquier otro caso: Escribir 'El codigo ingresado es incorrecto.'
+    FINSEGUN
+FIN

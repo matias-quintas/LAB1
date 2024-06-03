@@ -1,0 +1,15 @@
+tip, des: c[1]
+
+COMIENZO
+    Escribir 'Ingrese el destino: '
+    Leer des
+    Escribir 'Ingrese el tipo: '
+    Leer tip
+    
+    SEGUN tip HACER
+        S: Escribir 'Costo: '
+        X: Escribir 'Costo: '
+        E: Escribir 'Costo: '
+        En cualquier otro caso: Escribir 'El codigo ingresado es incorrecto.'
+    FINSEGUN
+FIN
