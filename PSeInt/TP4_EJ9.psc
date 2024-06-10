@@ -9,7 +9,6 @@ Algoritmo TP4_EJ9
 	Escribir "Ingrese nombre, apellido y promedio del estudiante:"
 	Leer nombre3, apellido3, promedio3
 	
-	
 	Si promedio1>=promedio2 y promedio1>=promedio3 Entonces
 		Escribir "Abanderado: ", nombre1, " ", apellido1, " - ", promedio1
 		Si promedio2>=promedio3 Entonces
@@ -19,7 +18,26 @@ Algoritmo TP4_EJ9
 			Escribir "Primer Escolta: ", nombre3, " ", apellido3, " - ", promedio3
 			Escribir "Segundo Escolta: ", nombre2, " ", apellido2, " - ", promedio2
 		FinSi
-		
+	SiNo
+		Si promedio2>=promedio1 y promedio2>=promedio3 Entonces
+			Escribir "Abanderado: ", nombre2, " ", apellido2, " - ", promedio2
+			Si promedio1>=promedio3 Entonces
+				Escribir "Primer Escolta: ", nombre1, " ", apellido1, " - ", promedio1
+				Escribir "Segundo Escolta: ", nombre3, " ", apellido3, " - ", promedio3
+			SiNo
+				Escribir "Primer Escolta: ", nombre3, " ", apellido3, " - ", promedio3
+				Escribir "Segundo Escolta: ", nombre1, " ", apellido1, " - ", promedio1
+			FinSi
+		SiNo
+			Escribir "Abanderado: ", nombre3, " ", apellido3, " - ", promedio3
+			Si promedio1>=promedio2 Entonces
+				Escribir "Primer Escolta: ", nombre1, " ", apellido1, " - ", promedio1
+				Escribir "Segundo Escolta: ", nombre2, " ", apellido2, " - ", promedio2
+			SiNo
+				Escribir "Primer Escolta: ", nombre2, " ", apellido2, " - ", promedio2
+				Escribir "Segundo Escolta: ", nombre1, " ", apellido1, " - ", promedio1
+			FinSi
+		FinSi
 	FinSi
 
 	

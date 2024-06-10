@@ -4,13 +4,16 @@ Algoritmo ejercicioDeClase
 	Escribir "Ingrese 20 numeros reales: "
 	leer num
 	
-	aux<-0
+	suma<-0
 	
-	Si aux=0 Entonces
-		leer num
-		aux <- aux + num
-		
-	FinSi
+	Para i <- 1 Hasta 20 Con Paso 1 Hacer
+		Escribir "Ingrese un valor: "
+		Leer nro
+		suma<-suma+nro
+		Escribir "La suma parcial es: ", suma
+	FinPara
 	
+	prom<-suma/20
+	Escribir "Promedio: ", prom
 	
 FinAlgoritmo
