@@ -16,4 +16,21 @@ Algoritmo ejercicioDeClase
 	prom<-suma/20
 	Escribir "Promedio: ", prom
 	
+
+// ---------------------------------------------
+	
+	Leer n
+	
+	Mientras n<>0 Hacer
+		c<-c+1
+		suma<-suma+n
+		Escribir "La suma parcial es: ", suma
+		Escribir "Ingrese un valor: "
+		Leer n
+	FinMientras
+	
+	prom<-suma/20
+	Escribir "Promedio: ", prom
+	
+	
 FinAlgoritmo
